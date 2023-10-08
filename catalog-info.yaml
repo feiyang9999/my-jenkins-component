@@ -4,3 +4,7 @@ metadata:
   name: my-jenkins-component
   annotations:
     'jenkins.io/job-full-name': updateECL_WFT
+spec:
+  lifecycle: production
+  owner: guests
+  type: service
