@@ -1,0 +1,6 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-jenkins-component
+  annotations:
+    'jenkins.io/job-full-name': updateECL_WFT
